@@ -1,0 +1,17 @@
+# Ignore everything by default
+*
+
+# Allow only these folders
+!notebooks/
+!src/
+!README.md
+!.gitignore
+
+# Inside allowed folders, allow files
+!notebooks/**
+!src/**
+
+# Ignore heavy / unwanted stuff
+data/
+.ipynb_checkpoints/
+__pycache__/
